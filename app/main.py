@@ -1,7 +1,6 @@
 # HanBot: Korean to English AI Chatbot
 
-# HanBot: Korean to English AI Chatbot
-
+#greeting message or beginning of chat introductions
 def welcome():
     print("안녕하세요! Welcome to HanBot 🇰🇷🤖")
     print("Type in English or Korean and I'll help you learn!")
@@ -11,8 +10,8 @@ def get_response(user_input):
     user_input = user_input.lower()
     if "hello" in user_input or "안녕" in user_input:
         return "안녕하세요! How can I help you with Korean or English today?"
-    elif "thank" in user_input or "고마워" in user_input:
-        return "You’re welcome! 천만에요!"
+    elif "thank" in user_input or "thank you" in user_input "고마워" in user_input:
+        return "You’re welcome! 천만에요!" or "별말씀을요!"
     elif "bye" in user_input or "잘가" in user_input:
         return "Goodbye! 다음에 봐요!"
     else:
