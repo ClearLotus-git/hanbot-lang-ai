@@ -37,8 +37,13 @@ def chat():
         else:
             response = get_response(user_input)
             print(f"HanBot: {response}")
+# Not tested
+#if __name__ == "__main__":
+    #welcome()
+    #chat()
+    
+#elif "help" in user_input or "도움" in user_input:
+    #return "You can say hello, thank you, or goodbye in English or Korean! Type 'exit' to quit."
 
-if __name__ == "__main__":
-    welcome()
-    chat()
-
+#elif "how are you" in user_input or "잘 지내" in user_input:
+    #return "I'm just code, but I'm running great! 😊 잘 지내줘서 고마워요!"
